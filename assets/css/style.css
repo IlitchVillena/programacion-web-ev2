@@ -1,0 +1,32 @@
+body {
+}
+
+.titulo {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid blue;
+    text-align: center;
+    
+}
+/*
+   propiedad que permite editar la lista de forma vertical
+   a horizontal
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-color: #13D6F0;
+}
+
+li {
+    display: inline;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
