@@ -4,7 +4,7 @@ Proyecto que contiene los sitios web creados en Programación Web
 Comando para descargar repositorio de la página web. (usar gitbash)
 
 ```shell
-
+https://elprofecarreno@github.com/elprofecarreno/programacion_web.git
 ```
 
 Ingresar a la repositorio descargado (usar gitbash)

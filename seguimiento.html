@@ -28,18 +28,19 @@ integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="ano
     <br>
     <h1 class=" text-center"><i><img src="./assets/img/icon/pedido.png" alt="" width="45"></i> SEGUIR MI PEDIDO</h1>
 
-    <h4>Consulte por su pedido</h4>
-    <h5>Ingrese los siguientes datos, donde (*) son obligatorios</h5>
+    <h4 class="text-center">Consulte por su pedido</h4>
+    <h5 class="text-center">Ingrese los siguientes datos, donde (*) son obligatorios</h5>
+    <br>
     <div class="container-form">
         <form class="form-control" action="">
             <div class="mb-3 row">
-                <label for="rut" class="col-sm-2 col-form-label">Rut*</label>
-                    <div class="col-sm-4">
+                <label for="rut" class="col-sm-2 col-form-label text-center">Rut*</label>
+                    <div class="col-sm-10">
                         <input id="rut" name="rut" type="text" class="form-control border-primary mb-3">
                     </div>
-                    
-                <label for="boleta" class="col-sm-2 col-form-label">Numero boleta*</label>
-                    <div class="col-sm-4">
+
+                <label for="boleta" class="col-sm-2 col-form-label text-center">Numero boleta*</label>
+                    <div class="col-sm-10">
                         <input id="boleta" name="boleta" type="text" class="form-control border-primary mb-3">
                     </div>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -48,8 +49,7 @@ integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="ano
                     <div id="message-error" class="my-3 alert alert-danger alert-dismissible fade" role="alert">
                         <div id="message">&nbsp;</div>
                         </button>
-                    </div> 
-            </div> 
+                    </div>  
         </form>
     </div>
     <script src="./assets/js/pedido.js"></script>
